@@ -21,5 +21,5 @@ function saveContact(contactNumber) {
 }
 
 document.getElementById('contact-button').addEventListener('click', function() {
-    saveContact('+91 8888888888');
+    saveContact('8888888888');
 });
