@@ -93,5 +93,26 @@
         <p>Follow us on <a href="#">Facebook</a>, <a href="#">Twitter</a>, and <a href="#">LinkedIn</a></p>
     </footer>
     <script src="index.js"></script>
+    <button id="contact-button">Let's talk</button>
+
+<script>
+document.getElementById('contact-button').addEventListener('click', function() {
+    // Phone number to be saved
+    var phoneNumber = '8888888888';
+
+    // Check if the device is a mobile device
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+    // If it's a mobile device, initiate saving contact
+    if (isMobile) {
+        var contactLink = 'tel:' + phoneNumber;
+        window.open(contactLink, '_blank');
+    } else {
+        // If it's not a mobile device, redirect to contact page
+        window.location.href = 'contact.html';
+    }
+});
+</script>
+
 </body>
 </html>
