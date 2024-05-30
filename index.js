@@ -9,7 +9,7 @@ document.getElementById('contact-button').addEventListener('click', function() {
         window.open(contactLink, '_blank');
     } else {
         // If it's not a mobile device, redirect to contact page
-        window.location.href = '#contact';
+        window.location.href = 'Contact us';
     }
 });
 </script>
