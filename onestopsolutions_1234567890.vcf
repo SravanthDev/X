@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:SRAVANTH
+ORG:ONE STOP SOLUTIONS	
+TEL:+1234567890
+EMAIL:youremail@example.com
+ADR:;;123 Main Street;City;State;12345;Country
+URL:https://www.yourwebsite.com
+END:VCARD
